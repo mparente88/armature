@@ -1,25 +1,6 @@
 {
   "port": 4000,
-  "bundles": [
-    "bundle-example-areas",
-    "bundle-example-channels",
-    "bundle-example-classes",
-    "bundle-example-combat",
-    "bundle-example-commands",
-    "bundle-example-debug",
-    "bundle-example-effects",
-    "bundle-example-input-events",
-    "bundle-example-lib",
-    "bundle-example-npc-behaviors",
-    "bundle-example-player-events",
-    "bundle-example-quests",
-    "simple-crafting",
-    "vendor-npcs",
-    "player-groups",
-    "progressive-respawn",
-    "telnet-networking",
-    "websocket-networking"
-  ],
+  "bundles": ["armature", "bundle-example-areas", "bundle-example-channels", "bundle-example-classes", "bundle-example-combat", "bundle-example-commands", "bundle-example-debug", "bundle-example-effects", "bundle-example-input-events", "bundle-example-lib", "bundle-example-npc-behaviors", "bundle-example-player-events", "bundle-example-quests", "simple-crafting", "vendor-npcs", "player-groups", "progressive-respawn", "telnet-networking", "websocket-networking"],
   "dataSources": {
     "YamlArea": {
       "require": "ranvier-datasource-file.YamlAreaDataSource"
@@ -90,7 +71,7 @@
   "minPlayerNameLength": 3,
   "maxCharacters": 3,
   "reportToAdmins": false,
-  "startingRoom": "limbo:white",
+  "startingRoom": "mechbay:mech_spawn",
   "moveCommand": "move",
   "skillLag": 2000,
   "defaultMaxPlayerInventory": 16,

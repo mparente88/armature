@@ -1,0 +1,50 @@
+- id: mech_spawn
+  title: Mech Hangar Bay
+  description: >
+    Towering steel giants line the hangar, their cockpits aglow with standby lights.
+    The scent of ozone and grease permeates the air. This is your base of operations.
+  exits:
+    - roomId: mechbay:briefing_room
+      direction: east
+    - roomId: mechbay:shop
+      direction: west
+
+- id: briefing_room
+  title: Pilot Briefing Room
+  description: >
+    Holographic displays flicker with tactical data. A virtual officer briefs you
+    on your objectives. Commands and interface systems are explained here.
+  exits:
+    - roomId: mechbay:mech_spawn
+      direction: west
+    - roomId: mechbay:sim_room_ground
+      direction: east
+    - roomId: mechbay:sim_room_mech
+      direction: south
+
+- id: sim_room_ground
+  title: Ground Combat Simulator
+  description: >
+    This room recreates urban combat in a VR space. Dummy targets pop up between
+    cover points, and the floor shudders with simulated ordinance.
+  exits:
+    - roomId: mechbay:briefing_room
+      direction: west
+
+- id: sim_room_mech
+  title: Mech Simulator Bay
+  description: >
+    You step into a cockpit replica surrounded by motion-control gear. As you activate it,
+    a heads-up display flares to life, launching you into a simulated mech battle.
+  exits:
+    - roomId: mechbay:briefing_room
+      direction: north
+
+- id: shop
+  title: Parts & Supply Depot
+  description: >
+    Crates of components and weapon modules line the walls. A grizzled quartermaster nods at you.
+    "Don't break anything you can't afford," he growls.
+  exits:
+    - roomId: mechbay:mech_spawn
+      direction: east

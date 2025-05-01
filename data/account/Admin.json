@@ -4,6 +4,34 @@
     {
       "username": "Admin",
       "deleted": false
+    },
+    {
+      "username": "Miso",
+      "deleted": true
+    },
+    {
+      "username": "Misop",
+      "deleted": true
+    },
+    {
+      "username": "Osim",
+      "deleted": true
+    },
+    {
+      "username": "Mechagirl",
+      "deleted": true
+    },
+    {
+      "username": "Mechagirl",
+      "deleted": false
+    },
+    {
+      "username": "Mechanicus",
+      "deleted": true
+    },
+    {
+      "username": "Dapwomd",
+      "deleted": false
     }
   ],
   "password": "$2a$10$kE4d5oRcQOCksbKHur7nbezcGD6gUil/cqkwhGagfM1u4WfhDjR8.",

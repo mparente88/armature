@@ -1,0 +1,6 @@
+title: Mech Bay
+metadata:
+  levelRange: [1, 5]
+  suggested: true
+  author: molly
+  spawnRate: 30
